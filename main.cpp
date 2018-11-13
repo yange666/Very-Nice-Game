@@ -8,5 +8,5 @@
 #include "include/game.h"
 int main() {
   Interface ITF;
-  ITF.slowPrint("hello worldwwww");
+  ITF.slowPrint("hello world");
 }
