@@ -7,6 +7,6 @@
  */
 #include "include/game.h"
 int main() {
-  Interface ITF;
-  ITF.slowPrint("hello world");
+  Interface ITF(1);
+  ITF.slowPrint("hello world\n");
 }

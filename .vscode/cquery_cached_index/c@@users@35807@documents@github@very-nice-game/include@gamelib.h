@@ -15,12 +15,12 @@
 using namespace std;
 class Interface {
 public:
-  Interface();
+  Interface(int);
   ~Interface();
   /*在控制台中缓慢输出*/
   void slowPrint(char *Arr);
 };
-Interface::Interface() { printf("初始化中....\n完毕..."); }
+Interface::Interface(int a) { printf("初始化中....\n完毕...\n"); }
 Interface::~Interface() {}
 void Interface::slowPrint(char *p) {
   while (1) {
