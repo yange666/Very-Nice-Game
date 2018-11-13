@@ -20,7 +20,7 @@ public:
   /*在控制台中缓慢输出*/
   void slowPrint(char *Arr);
 };
-Interface::Interface() { printf(""); }
+Interface::Interface() { printf("初始化中....\n完毕..."); }
 Interface::~Interface() {}
 void Interface::slowPrint(char *p) {
   while (1) {
