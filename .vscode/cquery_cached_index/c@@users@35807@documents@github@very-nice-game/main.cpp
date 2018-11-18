@@ -9,4 +9,5 @@
 int main() {
   Interface ITF(1);
   ITF.slowPrint("hello world\n");
+  ITF.slowPrint("666\n");
 }
